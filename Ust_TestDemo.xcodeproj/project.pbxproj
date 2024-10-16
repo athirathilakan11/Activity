@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1165AEC2CBED5C400D62FA8 /* DevInfo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1165AEA2CBED5C400D62FA8 /* DevInfo+CoreDataClass.swift */; };
+		E1165AED2CBED5C400D62FA8 /* DevInfo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1165AEB2CBED5C400D62FA8 /* DevInfo+CoreDataProperties.swift */; };
+		E1165B332CBED70F00D62FA8 /* DeviceInfomation+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1165B312CBED70F00D62FA8 /* DeviceInfomation+CoreDataClass.swift */; };
+		E1165B342CBED70F00D62FA8 /* DeviceInfomation+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1165B322CBED70F00D62FA8 /* DeviceInfomation+CoreDataProperties.swift */; };
+		E1165B382CBED8A700D62FA8 /* CoredataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1165B372CBED8A700D62FA8 /* CoredataManager.swift */; };
+		E192C7362CBF021A00AC5721 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = E192C7352CBF021A00AC5721 /* GoogleSignIn */; };
+		E192C7392CBF179200AC5721 /* StoredDevListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192C7382CBF179200AC5721 /* StoredDevListVC.swift */; };
 		E1F890892CBE45A5001F1CE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F890882CBE45A5001F1CE0 /* AppDelegate.swift */; };
 		E1F8908B2CBE45A5001F1CE0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8908A2CBE45A5001F1CE0 /* SceneDelegate.swift */; };
 		E1F8908D2CBE45A5001F1CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F8908C2CBE45A5001F1CE0 /* ViewController.swift */; };
@@ -17,6 +24,14 @@
 		E1F890A32CBE45A7001F1CE0 /* Ust_TestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F890A22CBE45A7001F1CE0 /* Ust_TestDemoTests.swift */; };
 		E1F890AD2CBE45A7001F1CE0 /* Ust_TestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F890AC2CBE45A7001F1CE0 /* Ust_TestDemoUITests.swift */; };
 		E1F890AF2CBE45A7001F1CE0 /* Ust_TestDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F890AE2CBE45A7001F1CE0 /* Ust_TestDemoUITestsLaunchTests.swift */; };
+		E1F890C52CBE4795001F1CE0 /* LoginManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F890C42CBE4795001F1CE0 /* LoginManger.m */; };
+		E1F890CE2CBE4F64001F1CE0 /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F890CD2CBE4F64001F1CE0 /* LoginVCViewController.swift */; };
+		E1F890D02CBE4F9E001F1CE0 /* DiscoveryVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F890CF2CBE4F9E001F1CE0 /* DiscoveryVc.swift */; };
+		E1F890D22CBE4FDA001F1CE0 /* DetailIPVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F890D12CBE4FDA001F1CE0 /* DetailIPVc.swift */; };
+		E1F890D92CBE6D17001F1CE0 /* discoveryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F890D72CBE6D17001F1CE0 /* discoveryCell.swift */; };
+		E1F890DA2CBE6D17001F1CE0 /* discoveryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1F890D82CBE6D17001F1CE0 /* discoveryCell.xib */; };
+		E1F890DD2CBE9699001F1CE0 /* DetailIPVcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F890DC2CBE9699001F1CE0 /* DetailIPVcModel.swift */; };
+		E1F890DF2CBE9C4A001F1CE0 /* IPInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F890DE2CBE9C4A001F1CE0 /* IPInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1165AEA2CBED5C400D62FA8 /* DevInfo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DevInfo+CoreDataClass.swift"; path = "Ust_TestDemo/DevInfo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E1165AEB2CBED5C400D62FA8 /* DevInfo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DevInfo+CoreDataProperties.swift"; path = "Ust_TestDemo/DevInfo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E1165B312CBED70F00D62FA8 /* DeviceInfomation+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DeviceInfomation+CoreDataClass.swift"; path = "Ust_TestDemo/DeviceInfomation+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E1165B322CBED70F00D62FA8 /* DeviceInfomation+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DeviceInfomation+CoreDataProperties.swift"; path = "Ust_TestDemo/DeviceInfomation+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E1165B372CBED8A700D62FA8 /* CoredataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoredataManager.swift; sourceTree = "<group>"; };
+		E192C7382CBF179200AC5721 /* StoredDevListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredDevListVC.swift; sourceTree = "<group>"; };
 		E1F890852CBE45A5001F1CE0 /* Ust_TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ust_TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F890882CBE45A5001F1CE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1F8908A2CBE45A5001F1CE0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +72,16 @@
 		E1F890A82CBE45A7001F1CE0 /* Ust_TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ust_TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F890AC2CBE45A7001F1CE0 /* Ust_TestDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ust_TestDemoUITests.swift; sourceTree = "<group>"; };
 		E1F890AE2CBE45A7001F1CE0 /* Ust_TestDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ust_TestDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1F890BB2CBE4679001F1CE0 /* Ust_TestDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ust_TestDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1F890C32CBE4795001F1CE0 /* LoginManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginManger.h; sourceTree = "<group>"; };
+		E1F890C42CBE4795001F1CE0 /* LoginManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginManger.m; sourceTree = "<group>"; };
+		E1F890CD2CBE4F64001F1CE0 /* LoginVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
+		E1F890CF2CBE4F9E001F1CE0 /* DiscoveryVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryVc.swift; sourceTree = "<group>"; };
+		E1F890D12CBE4FDA001F1CE0 /* DetailIPVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailIPVc.swift; sourceTree = "<group>"; };
+		E1F890D72CBE6D17001F1CE0 /* discoveryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discoveryCell.swift; sourceTree = "<group>"; };
+		E1F890D82CBE6D17001F1CE0 /* discoveryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = discoveryCell.xib; sourceTree = "<group>"; };
+		E1F890DC2CBE9699001F1CE0 /* DetailIPVcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailIPVcModel.swift; sourceTree = "<group>"; };
+		E1F890DE2CBE9C4A001F1CE0 /* IPInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E192C7362CBF021A00AC5721 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +110,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1165B362CBED88F00D62FA8 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E1165B372CBED8A700D62FA8 /* CoredataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E192C7342CBF021A00AC5721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E1F8907C2CBE45A5001F1CE0 = {
 			isa = PBXGroup;
 			children = (
+				E1165B312CBED70F00D62FA8 /* DeviceInfomation+CoreDataClass.swift */,
+				E1165B322CBED70F00D62FA8 /* DeviceInfomation+CoreDataProperties.swift */,
+				E1165AEA2CBED5C400D62FA8 /* DevInfo+CoreDataClass.swift */,
+				E1165AEB2CBED5C400D62FA8 /* DevInfo+CoreDataProperties.swift */,
 				E1F890872CBE45A5001F1CE0 /* Ust_TestDemo */,
 				E1F890A12CBE45A7001F1CE0 /* Ust_TestDemoTests */,
 				E1F890AB2CBE45A7001F1CE0 /* Ust_TestDemoUITests */,
 				E1F890862CBE45A5001F1CE0 /* Products */,
+				E192C7342CBF021A00AC5721 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +153,12 @@
 		E1F890872CBE45A5001F1CE0 /* Ust_TestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E1165B362CBED88F00D62FA8 /* CoreData */,
+				E1F890DB2CBE967D001F1CE0 /* ModelView */,
+				E1F890D62CBE6CFB001F1CE0 /* Cell */,
+				E1F890D32CBE6B57001F1CE0 /* Model */,
+				E1F890C62CBE4BA3001F1CE0 /* Controllers */,
+				E1F890C22CBE4782001F1CE0 /* Manger */,
 				E1F890882CBE45A5001F1CE0 /* AppDelegate.swift */,
 				E1F8908A2CBE45A5001F1CE0 /* SceneDelegate.swift */,
 				E1F8908C2CBE45A5001F1CE0 /* ViewController.swift */,
@@ -109,6 +167,7 @@
 				E1F890962CBE45A7001F1CE0 /* LaunchScreen.storyboard */,
 				E1F890992CBE45A7001F1CE0 /* Info.plist */,
 				E1F890912CBE45A5001F1CE0 /* Ust_TestDemo.xcdatamodeld */,
+				E1F890BB2CBE4679001F1CE0 /* Ust_TestDemo-Bridging-Header.h */,
 			);
 			path = Ust_TestDemo;
 			sourceTree = "<group>";
@@ -130,6 +189,51 @@
 			path = Ust_TestDemoUITests;
 			sourceTree = "<group>";
 		};
+		E1F890C22CBE4782001F1CE0 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				E1F890C32CBE4795001F1CE0 /* LoginManger.h */,
+				E1F890C42CBE4795001F1CE0 /* LoginManger.m */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		E1F890C62CBE4BA3001F1CE0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1F890CD2CBE4F64001F1CE0 /* LoginVCViewController.swift */,
+				E1F890CF2CBE4F9E001F1CE0 /* DiscoveryVc.swift */,
+				E1F890D12CBE4FDA001F1CE0 /* DetailIPVc.swift */,
+				E192C7382CBF179200AC5721 /* StoredDevListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E1F890D32CBE6B57001F1CE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E1F890DE2CBE9C4A001F1CE0 /* IPInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1F890D62CBE6CFB001F1CE0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E1F890D72CBE6D17001F1CE0 /* discoveryCell.swift */,
+				E1F890D82CBE6D17001F1CE0 /* discoveryCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		E1F890DB2CBE967D001F1CE0 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				E1F890DC2CBE9699001F1CE0 /* DetailIPVcModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +250,9 @@
 			dependencies = (
 			);
 			name = Ust_TestDemo;
+			packageProductDependencies = (
+				E192C7352CBF021A00AC5721 /* GoogleSignIn */,
+			);
 			productName = Ust_TestDemo;
 			productReference = E1F890852CBE45A5001F1CE0 /* Ust_TestDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -198,6 +305,7 @@
 				TargetAttributes = {
 					E1F890842CBE45A5001F1CE0 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					E1F8909D2CBE45A7001F1CE0 = {
 						CreatedOnToolsVersion = 15.4;
@@ -218,6 +326,10 @@
 				Base,
 			);
 			mainGroup = E1F8907C2CBE45A5001F1CE0;
+			packageReferences = (
+				E192C7332CBEFE9B00AC5721 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				E192C7372CBF0F7F00AC5721 /* XCRemoteSwiftPackageReference "Reachability" */,
+			);
 			productRefGroup = E1F890862CBE45A5001F1CE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,6 +349,7 @@
 				E1F890952CBE45A7001F1CE0 /* Assets.xcassets in Resources */,
 				E1F890982CBE45A7001F1CE0 /* Base in Resources */,
 				E1F890902CBE45A5001F1CE0 /* Base in Resources */,
+				E1F890DA2CBE6D17001F1CE0 /* discoveryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +374,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F890D22CBE4FDA001F1CE0 /* DetailIPVc.swift in Sources */,
 				E1F8908D2CBE45A5001F1CE0 /* ViewController.swift in Sources */,
+				E1165B382CBED8A700D62FA8 /* CoredataManager.swift in Sources */,
 				E1F890932CBE45A5001F1CE0 /* Ust_TestDemo.xcdatamodeld in Sources */,
+				E1F890DD2CBE9699001F1CE0 /* DetailIPVcModel.swift in Sources */,
+				E192C7392CBF179200AC5721 /* StoredDevListVC.swift in Sources */,
+				E1F890C52CBE4795001F1CE0 /* LoginManger.m in Sources */,
+				E1F890D02CBE4F9E001F1CE0 /* DiscoveryVc.swift in Sources */,
+				E1165AEC2CBED5C400D62FA8 /* DevInfo+CoreDataClass.swift in Sources */,
+				E1165AED2CBED5C400D62FA8 /* DevInfo+CoreDataProperties.swift in Sources */,
 				E1F890892CBE45A5001F1CE0 /* AppDelegate.swift in Sources */,
+				E1F890DF2CBE9C4A001F1CE0 /* IPInfo.swift in Sources */,
 				E1F8908B2CBE45A5001F1CE0 /* SceneDelegate.swift in Sources */,
+				E1F890CE2CBE4F64001F1CE0 /* LoginVCViewController.swift in Sources */,
+				E1F890D92CBE6D17001F1CE0 /* discoveryCell.swift in Sources */,
+				E1165B332CBED70F00D62FA8 /* DeviceInfomation+CoreDataClass.swift in Sources */,
+				E1165B342CBED70F00D62FA8 /* DeviceInfomation+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +498,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -429,7 +555,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -444,11 +570,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ust_TestDemo/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -458,9 +585,12 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wisilica.lightWorthy.Ust-TestDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisilica.lightWorthydemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ust_TestDemo/Ust_TestDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,11 +601,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Ust_TestDemo/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -485,9 +616,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wisilica.lightWorthy.Ust-TestDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisilica.lightWorthydemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Ust_TestDemo/Ust_TestDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -605,6 +738,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E192C7332CBEFE9B00AC5721 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		E192C7372CBF0F7F00AC5721 /* XCRemoteSwiftPackageReference "Reachability" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E192C7352CBF021A00AC5721 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E192C7332CBEFE9B00AC5721 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E1F890912CBE45A5001F1CE0 /* Ust_TestDemo.xcdatamodeld */ = {
